@@ -7,7 +7,6 @@ site:
       title: SCG Docs
       path: scg-docs
       description: ""
-      default: true
       children:
         - type: space
           key: space-1
@@ -20,6 +19,7 @@ site:
       key: section-2
       title: Product Docs
       path: product-docs
+      default: true
       children:
         - type: space
           key: space-2
