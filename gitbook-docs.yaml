@@ -1,0 +1,31 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: SCG Docs
+  structure:
+    - type: section
+      key: section-1
+      title: SCG Docs
+      path: scg-docs
+      description: ""
+      default: true
+      children:
+        - type: space
+          key: space-1
+          title: SCG Docs
+          path: untitled
+          default: true
+          content:
+            directory: ./scg-docs/untitled
+    - type: section
+      key: section-2
+      title: Product Docs
+      path: product-docs
+      children:
+        - type: space
+          key: space-2
+          title: Product Docs
+          path: product-docs
+          default: true
+          draft: true
+          content:
+            directory: ./product-docs
